@@ -7,6 +7,10 @@ import ManageUserPopup from './components/ManageUsers/components/ManageUserPopup
 import ManagePerfum from './components/ManagePerfum/ManagePerfum'
 import PerfumDetailPopup from './components/ManagePerfum/components/PerfumDetailPopup/PerfumDetailPopup'
 import AddPerfumPopup from './components/ManagePerfum/components/AddPerfumPopup/AddPerfumPopup'
+import ManageQuiz from './components/ManageQuiz/ManageQuiz'
+import ClassicTriviaPopup from './components/ManageQuiz/components/ClassicTriviaPopup/ClassicTriviaPopup'
+import ScentOrNotPopup from './components/ManageQuiz/components/ScentOrNotPopup/ScentOrNotPopup'
+import GuessTheBottlePopup from './components/ManageQuiz/components/GuessTheBottlePopup/GuessTheBottlePopup'
 
 const AdminPanel = () => {
   return (
@@ -19,7 +23,8 @@ const AdminPanel = () => {
     <div className="p-[32px]">
         {/* <Dashboard/> */}
         {/* <ManageUsers/> */}
-        <ManagePerfum/>
+        {/* <ManagePerfum/> */}
+        <ManageQuiz/>
     </div>
 
   </main>
@@ -27,7 +32,10 @@ const AdminPanel = () => {
 {/* popups */}
 {/* <ManageUserPopup/> */}
 {/* <PerfumDetailPopup/> */}
-<AddPerfumPopup/>
+{/* <AddPerfumPopup/> */}
+{/* <ClassicTriviaPopup/> */}
+{/* <ScentOrNotPopup/> */}
+<GuessTheBottlePopup/>
     </div>
   )
 }
