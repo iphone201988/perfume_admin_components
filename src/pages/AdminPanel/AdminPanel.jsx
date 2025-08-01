@@ -11,6 +11,10 @@ import ManageQuiz from './components/ManageQuiz/ManageQuiz'
 import ClassicTriviaPopup from './components/ManageQuiz/components/ClassicTriviaPopup/ClassicTriviaPopup'
 import ScentOrNotPopup from './components/ManageQuiz/components/ScentOrNotPopup/ScentOrNotPopup'
 import GuessTheBottlePopup from './components/ManageQuiz/components/GuessTheBottlePopup/GuessTheBottlePopup'
+import UserDetails from './components/ManageUsers/components/UserDetails/UserDetails'
+import PerfumDetails from './components/ManagePerfum/components/PerfumDetails/PerfumDetails'
+import ManageArticle from './components/ManageArticle/ManageArticle'
+import AddArticle from './components/ManageArticle/components/AddArticle/AddArticle'
 
 const AdminPanel = () => {
   return (
@@ -20,11 +24,18 @@ const AdminPanel = () => {
    <main className='ml-[320px] absolute w-[calc(100%-320px)] min-h-[100vh] top-[0]  bg-[#ffff] max-lg:w-full max-lg:ml-0'>
     <Header/>
 
-    <div className="p-[32px]">
+    <div className="p-[32px] max-lg:p-[16px]">
         {/* <Dashboard/> */}
+
         {/* <ManageUsers/> */}
+        {/* <UserDetails/> */}
+
         {/* <ManagePerfum/> */}
-        <ManageQuiz/>
+        {/* <PerfumDetails/> */}
+
+        {/* <ManageQuiz/> */}
+
+    <ManageArticle/>
     </div>
 
   </main>
@@ -35,7 +46,9 @@ const AdminPanel = () => {
 {/* <AddPerfumPopup/> */}
 {/* <ClassicTriviaPopup/> */}
 {/* <ScentOrNotPopup/> */}
-<GuessTheBottlePopup/>
+{/* <GuessTheBottlePopup/> */}
+{/* <AddArticle/> */}
+
     </div>
   )
 }

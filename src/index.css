@@ -55,12 +55,24 @@ body {
 
 
 
+section.tabs-sec.custom-destination .content-only {
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    color: #001942;
+}
+
+section.tabs-sec.custom-destination .content-only p {
+    color: #001942;
+    margin: 0;
+}
 
 
-
-
-
-
+input[type="range"]::-webkit-slider-runnable-track {
+            background:white ;
+            height: 16px;
+            border-radius: 20px;
+        }
 
 
 
